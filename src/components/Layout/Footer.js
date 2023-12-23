@@ -14,14 +14,14 @@ const Footer = () => {
           sx={{
             my: 3,
             "& svg": {
-              fontSize: "60px",
-              cursor: "pointer",
-              mr: 2,
-            },
+               fontSize: "60px",
+               cursor: "pointer",
+               mr: 2,
+              },
             "& svg:hover": {
-              color: "goldenrod",
-              transform: "translateX(5px)",
-              transition: "all 400ms",
+               color: "goldenrod",
+               transform: "translateX(5px)",
+               transition: "all 400ms",
             },
           }}
         >
@@ -45,5 +45,4 @@ const Footer = () => {
     </>
   );
 };
-
 export default Footer;

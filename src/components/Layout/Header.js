@@ -9,7 +9,6 @@ import {
   Typography,
 } from "@mui/material";
 import Logo from "../../images/logo.svg";
-
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
 import "../../styles/HeaderStyles.css";
@@ -106,16 +105,15 @@ const Header = () => {
                 width: "240px",
               },
             }}
-          >
-            {drawer}
-          </Drawer>
+               >
+        {drawer}
+        </Drawer>
         </Box>
         <Box>
-          <Toolbar />
+        <Toolbar/>
         </Box>
-      </Box>
+        </Box>
     </>
-  );
-};
-
+     );
+     };
 export default Header;
